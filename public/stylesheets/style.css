@@ -1,0 +1,67 @@
+@import url('./Oswald-VariableFont_wght.ttf');
+
+body,
+* {
+  font-family: "Oswald", sans-serif !important;
+  font-optical-sizing: auto;
+}
+
+.border-gold {
+  border-color: #F0B90B;
+}
+
+.text-gold {
+  color: #F0B90B;
+}
+
+.h-50px {
+  height: 50px;
+}
+
+input[name="money"]:focus {
+  box-shadow: unset;
+}
+
+input[name="money"]:focus {
+  color: white;
+  border-color: #F0B90B !important;
+}
+
+.currency-symbol {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.wrap-al p.symbol {
+  width: 3em;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::placeholder {
+  color: #f0bb0b58 !important;
+  opacity: 1;
+  /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Edge 12 -18 */
+  color: #f0bb0b58 !important;
+}
+
+.loading {
+  z-index: 1000;
+  top: 0;
+  left: 0;
+}
